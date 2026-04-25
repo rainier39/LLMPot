@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:jammy
 
 RUN apt-get update && apt-get upgrade -y && apt-get install -y nmap python2 git build-essential net-tools iputils-ping vim
 RUN apt-get install -y libevent-dev libdumbnet-dev libpcap-dev libpcre3-dev libedit-dev bison flex libtool zlib1g-dev
